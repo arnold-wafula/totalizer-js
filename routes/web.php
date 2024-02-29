@@ -15,3 +15,4 @@ use App\Http\Controllers\CalculatorController;
 */
 
 Route::get('/', [CalculatorController::class, 'index']);
+Route::post('/', [CalculatorController::class, 'calculate']);
